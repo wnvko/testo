@@ -1,0 +1,15 @@
+.row-layout {
+    display: flex;
+}
+.master-view-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 100%;
+}
+.button {
+    height: max-content;
+    min-width: min-content;
+    flex-shrink: 0;
+}
